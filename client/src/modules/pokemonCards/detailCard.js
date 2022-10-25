@@ -6,15 +6,15 @@ import setIcon from '../pokemonCards/setIcon'
 import './detailCard.css'
 
 // actions
-import { getByName } from 'store/actions/getByNameActions';
-import { getDetails } from 'store/actions/detailCardActions.js'
-import { clearPokemon } from 'store/actions/clearPokemonActions';
+import { getByName } from '../../store/actions/getByNameActions';
+import { getDetails } from '../../store/actions/detailCardActions.js'
+import { clearPokemon } from '../../store/actions/clearPokemonActions';
 
 //images
-import pokeBall from 'images/pokeball.png'
-import ballWaiting from 'images/ballWaiting.gif'
-import loading from 'images/loading.png'
-import giphy from 'images/giphy.webp'
+import pokeBall from '../../images/pokeball.png'
+import ballWaiting from '../../images/ballWaiting.gif'
+import loading from '../../images/loading.png'
+import giphy from '../../images/giphy.webp'
 
 function DetailCard({ byName, getByName, details, getDetails }) {
   const dispatch = useDispatch();

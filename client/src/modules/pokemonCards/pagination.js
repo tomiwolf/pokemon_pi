@@ -1,6 +1,5 @@
 import React from "react";
-import "./pagination.css";
-
+import './Pagination.css'
 
 const Pagination = ({ pkmnPerPage, totalPkmn, paginate }) => {
   // const [isActive, setIsActive] = useState(false);

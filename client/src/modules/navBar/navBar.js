@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { filterAZ, filterPokemons, filterType } from 'store/actions/filterPokemonsActions'
+import { filterAZ, filterPokemons, filterType } from '../../store/actions/filterPokemonsActions'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { getPokemons } from 'store/actions/pokemonActions';
-import { getByName } from 'store/actions/getByNameActions';
+import { getPokemons } from '../../store/actions/pokemonActions';
+import { getByName } from '../../store/actions/getByNameActions';
 import './navBar.css';
 // import PokemonBanner from '../../images/pokemon.png'
 

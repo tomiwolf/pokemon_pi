@@ -4,10 +4,10 @@ import { useState } from 'react'
 import { useHistory } from "react-router-dom";
 
 import videoLanding from '../../images/MiVideoFinal.mp4'
-import gifStart from 'images/gifStart.gif';
-import gifIntro from 'images/gifIntro.gif';
-import logo from 'images/pokemon.png'
-import welcomeLogo from 'images/welcomeLogo.png'
+import gifStart from '../../images/gifStart.gif';
+import gifIntro from '../../images/gifIntro.gif';
+import logo from '../../images/pokemon.png'
+import welcomeLogo from '../../images/welcomeLogo.png'
 
 export default function LandingPage() {
   const [selectedGif, setSelectedGif] = useState(gifIntro);

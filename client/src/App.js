@@ -1,6 +1,9 @@
 import React, { useEffect, useState, StrictMode } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+// import { Dispatch } from 'redux';
+// import { Dispatch } from 'react';
+
 
 import NavBar from './modules/navBar/navBar';
 import PokemonCards from './modules/pokemonCards'

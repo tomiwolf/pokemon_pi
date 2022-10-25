@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom';
-import { createPokemon } from 'store/actions/createPokemonActions';
-import { getPokemons } from 'store/actions/pokemonActions';
+import { createPokemon } from '../../store/actions/createPokemonActions';
+import { getPokemons } from '../../store/actions/pokemonActions';
 
-import rollingPokeball from 'images/rollingPokeball.gif'
-import createYourOwn from 'images/create your own.png'
-import pokemonBanner from 'images/pokemon.png'
-import ballWaiting from 'images/ballWaiting.gif'
-import loading from 'images/loading.png'
+import rollingPokeball from '../../images/rollingPokeball.gif'
+import createYourOwn from '../../images/own.png'
+import pokemonBanner from '../../images/pokemon.png'
+import ballWaiting from "../../images/ballWaiting.gif"
+import loading from '../../images/loading.png'
 import './createPokemon.css'
 
 

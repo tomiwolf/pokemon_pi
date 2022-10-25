@@ -3,8 +3,8 @@ import { GET_DETAILS } from '../actions/detailCardActions'
 import { GET_BY_NAME } from '../actions/getByNameActions'
 import { GET_TYPES } from '../actions/getTypesActions'
 import { CLEAR_POKEMON } from '../actions/clearPokemonActions';
-import { FILTER_AZ, FILTER_POKEMONS, FILTER_TYPE, FILTER_ATTACK } from '../actions/filterPokemonsActions'
-import { CREATE_POKEMON } from 'store/actions/createPokemonActions';
+import { FILTER_AZ, FILTER_POKEMONS, FILTER_TYPE } from '../actions/filterPokemonsActions'
+import { CREATE_POKEMON } from '../actions/createPokemonActions';
 
 
 

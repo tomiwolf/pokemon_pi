@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
 import Mapping from './mapping';
-import { getPokemons } from 'store/actions/pokemonActions.js'
-import Pagination from 'modules/pokemonCards/pagination'
-import ballWaiting from 'images/ballWaiting.gif'
-import loading from 'images/loading.png'
+import { getPokemons } from '../../store/actions/pokemonActions';
+import Pagination from './pagination'
+import ballWaiting from '../../images/rollingPokeball.gif'
+import loading from '../../images/loading.png'
 import './index.css'
 
 function PokemonCards({ pokemons, refresh }) {

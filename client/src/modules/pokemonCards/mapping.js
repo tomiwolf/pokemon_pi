@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import setIcon from "./setIcon";
-import pokeBall from 'images/pokeball.png'
-import giphy from 'images/giphy.webp'
+import pokeBall from '../../images/pokeball.png';
+import giphy from '../../images/giphy.webp'
 import './index.css'
 
 const Mapping = ({ pokemons, paginate, refresh }) => {
